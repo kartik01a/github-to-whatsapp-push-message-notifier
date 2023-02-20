@@ -3,6 +3,8 @@ on:
   push:
     branches: 
       - main
+      - master
+      - main2
 jobs:
   build:
     runs-on: ubuntu-latest
